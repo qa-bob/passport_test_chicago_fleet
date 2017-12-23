@@ -34,3 +34,5 @@ WebUI.setText(findTestObject('Page_ParkChicago/input_code'), '510')
 
 WebUI.click(findTestObject('Page_ParkChicago/button_Verify'))
 
+WebUI.verifyElementText(findTestObject('Page_ParkChicago/div_Invalid verification code.'), 'Invalid Verification code')
+
