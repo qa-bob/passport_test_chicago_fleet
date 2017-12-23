@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SanityTests" time="92" tests="3" failures="2" errors="0">
+   <testsuite name="SanityTests" tests="3" failures="2" errors="0" time="92" timestamp="2017-12-22 22:59:10" hostname="Admin - Admin-PC" id="Test Suites/SanityTests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Admin\\Documents\\GitHub\\passport_test_chicago_fleet\\ChicagoFleet\\Reports\\SanityTests\\20171222_225907"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\Documents\\GitHub\\passport_test_chicago_fleet\\ChicagoFleet\\Reports\\SanityTests\\20171222_225907\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Admin\\Documents\\GitHub\\passport_test_chicago_fleet\\ChicagoFleet\\Reports\\SanityTests\\20171222_225907\\1514008803897.png, C:\\Users\\Admin\\Documents\\GitHub\\passport_test_chicago_fleet\\ChicagoFleet\\Reports\\SanityTests\\20171222_225907\\1514008842027.png"/>
+         <property name="hostName" value="Admin - Admin-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.84"/>
+         <property name="hostAddress" value="192.168.1.203"/>
+         <property name="sessionId" value="30d05ce13db19b497c14584ffe03c703"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2017-12-22 22:59:11 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2017-12-22 22:59:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://d27lxz77rn1ypu.cloudfront.net/'
+
+2017-12-22 22:59:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://d27lxz77rn1ypu.cloudfront.net/'
+
+2017-12-22 22:59:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/a_Log In' is clicked on
+
+2017-12-22 22:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/a_Log In' is clicked on
+
+2017-12-22 22:59:24 - [TEST_STEP][PASSED] - setText: Text 'qabob.small+1@gmail.com' is set on object 'Object Repository/Page_ParkChicago/input_email'
+
+2017-12-22 22:59:25 - [MESSAGE][PASSED] - Text 'qabob.small+1@gmail.com' is set on object 'Object Repository/Page_ParkChicago/input_email'
+
+2017-12-22 22:59:25 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Page_ParkChicago/input_pin'
+
+2017-12-22 22:59:25 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_ParkChicago/input_pin'
+
+2017-12-22 22:59:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/button_Log In' is clicked on
+
+2017-12-22 22:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/button_Log In' is clicked on
+
+2017-12-22 22:59:25 - [TEST_STEP][PASSED] - setText: Text '510' is set on object 'Object Repository/Page_ParkChicago/input_code'
+
+2017-12-22 22:59:26 - [MESSAGE][PASSED] - Text '510' is set on object 'Object Repository/Page_ParkChicago/input_code'
+
+2017-12-22 22:59:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/button_Verify' is clicked on
+
+2017-12-22 22:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/button_Verify' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Member" classname="Test Cases/Add Member" status="PASSED">
+         <system-out><![CDATA[2017-12-22 22:59:26 - [TEST_CASE][PASSED] - Test Cases/Add Member: Test Cases/Add Member
+
+2017-12-22 22:59:27 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login' successfully
+
+2017-12-22 22:59:27 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2017-12-22 22:59:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://d27lxz77rn1ypu.cloudfront.net/'
+
+2017-12-22 22:59:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-12-22 22:59:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://d27lxz77rn1ypu.cloudfront.net/'
+
+2017-12-22 22:59:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/a_Log In' is clicked on
+
+2017-12-22 22:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/a_Log In' is clicked on
+
+2017-12-22 22:59:34 - [TEST_STEP][PASSED] - setText: Text 'qabob.small+1@gmail.com' is set on object 'Object Repository/Page_ParkChicago/input_email'
+
+2017-12-22 22:59:35 - [MESSAGE][PASSED] - Text 'qabob.small+1@gmail.com' is set on object 'Object Repository/Page_ParkChicago/input_email'
+
+2017-12-22 22:59:35 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Page_ParkChicago/input_pin'
+
+2017-12-22 22:59:35 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_ParkChicago/input_pin'
+
+2017-12-22 22:59:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/button_Log In' is clicked on
+
+2017-12-22 22:59:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/button_Log In' is clicked on
+
+2017-12-22 22:59:35 - [TEST_STEP][PASSED] - setText: Text '510' is set on object 'Object Repository/Page_ParkChicago/input_code'
+
+2017-12-22 22:59:36 - [MESSAGE][PASSED] - Text '510' is set on object 'Object Repository/Page_ParkChicago/input_code'
+
+2017-12-22 22:59:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/button_Verify' is clicked on
+
+2017-12-22 22:59:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/button_Verify' is clicked on
+
+2017-12-22 22:59:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2017-12-22 22:59:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/button_Add Fleet Member' is clicked on
+
+2017-12-22 22:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/button_Add Fleet Member' is clicked on
+
+2017-12-22 22:59:37 - [TEST_STEP][PASSED] - setText: Text 'New1' is set on object 'Object Repository/Page_ParkChicago/input_name'
+
+2017-12-22 22:59:37 - [MESSAGE][PASSED] - Text 'New1' is set on object 'Object Repository/Page_ParkChicago/input_name'
+
+2017-12-22 22:59:37 - [TEST_STEP][PASSED] - setText: Text '602-752-6301' is set on object 'Object Repository/Page_ParkChicago/input_phoneNumber'
+
+2017-12-22 22:59:37 - [MESSAGE][PASSED] - Text '602-752-6301' is set on object 'Object Repository/Page_ParkChicago/input_phoneNumber'
+
+2017-12-22 22:59:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/button_Add Member' is clicked on
+
+2017-12-22 22:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/button_Add Member' is clicked on
+
+2017-12-22 22:59:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-22 22:59:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Member" classname="Test Cases/Delete Member" status="PASSED">
+         <system-out><![CDATA[2017-12-22 22:59:38 - [TEST_CASE][PASSED] - Test Cases/Delete Member: Test Cases/Delete Member
+
+2017-12-22 22:59:39 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login' successfully
+
+2017-12-22 22:59:39 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2017-12-22 22:59:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://d27lxz77rn1ypu.cloudfront.net/'
+
+2017-12-22 22:59:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://d27lxz77rn1ypu.cloudfront.net/'
+
+2017-12-22 22:59:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/a_Log In' is clicked on
+
+2017-12-22 22:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/a_Log In' is clicked on
+
+2017-12-22 22:59:46 - [TEST_STEP][PASSED] - setText: Text 'qabob.small+1@gmail.com' is set on object 'Object Repository/Page_ParkChicago/input_email'
+
+2017-12-22 22:59:47 - [MESSAGE][PASSED] - Text 'qabob.small+1@gmail.com' is set on object 'Object Repository/Page_ParkChicago/input_email'
+
+2017-12-22 22:59:47 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Page_ParkChicago/input_pin'
+
+2017-12-22 22:59:47 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_ParkChicago/input_pin'
+
+2017-12-22 22:59:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/button_Log In' is clicked on
+
+2017-12-22 22:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/button_Log In' is clicked on
+
+2017-12-22 22:59:47 - [TEST_STEP][PASSED] - setText: Text '510' is set on object 'Object Repository/Page_ParkChicago/input_code'
+
+2017-12-22 22:59:48 - [MESSAGE][PASSED] - Text '510' is set on object 'Object Repository/Page_ParkChicago/input_code'
+
+2017-12-22 22:59:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/button_Verify' is clicked on
+
+2017-12-22 22:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/button_Verify' is clicked on
+
+2017-12-22 22:59:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2017-12-22 22:59:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/button_Delete' is clicked on
+
+2017-12-22 22:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/button_Delete' is clicked on
+
+2017-12-22 22:59:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/button_Delete Member' is clicked on
+
+2017-12-22 22:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/button_Delete Member' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Fleet Administrator Profile" classname="Test Cases/Edit Fleet Administrator Profile" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2017-12-22 22:59:49 - [TEST_CASE][FAILED] - Test Cases/Edit Fleet Administrator Profile: Test Cases/Edit Fleet Administrator Profile FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2017-12-22 22:59:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login' successfully
+
+2017-12-22 22:59:49 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2017-12-22 22:59:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://d27lxz77rn1ypu.cloudfront.net/'
+
+2017-12-22 22:59:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-12-22 22:59:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://d27lxz77rn1ypu.cloudfront.net/'
+
+2017-12-22 22:59:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/a_Log In' is clicked on
+
+2017-12-22 22:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/a_Log In' is clicked on
+
+2017-12-22 22:59:57 - [TEST_STEP][PASSED] - setText: Text 'qabob.small+1@gmail.com' is set on object 'Object Repository/Page_ParkChicago/input_email'
+
+2017-12-22 22:59:58 - [MESSAGE][PASSED] - Text 'qabob.small+1@gmail.com' is set on object 'Object Repository/Page_ParkChicago/input_email'
+
+2017-12-22 22:59:58 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Page_ParkChicago/input_pin'
+
+2017-12-22 22:59:58 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_ParkChicago/input_pin'
+
+2017-12-22 22:59:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/button_Log In' is clicked on
+
+2017-12-22 22:59:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/button_Log In' is clicked on
+
+2017-12-22 22:59:58 - [TEST_STEP][PASSED] - setText: Text '510' is set on object 'Object Repository/Page_ParkChicago/input_code'
+
+2017-12-22 22:59:59 - [MESSAGE][PASSED] - Text '510' is set on object 'Object Repository/Page_ParkChicago/input_code'
+
+2017-12-22 22:59:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/button_Verify' is clicked on
+
+2017-12-22 22:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/button_Verify' is clicked on
+
+2017-12-22 22:59:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2017-12-22 22:59:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-22 22:59:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-12-22 23:00:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-22 23:00:03 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2017-12-22 23:00:03 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_ParkChicago (1)/a_Profile' does not exist
+
+2017-12-22 23:00:03 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2017-12-22 23:00:04 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\Admin\\Documents\\GitHub\\passport_test_chicago_fleet\\ChicagoFleet\\Reports\\SanityTests\\20171222_225907\\1514008803897.png]]]]></system-out>
+         <system-err><![CDATA[2017-12-22 22:59:49 - [TEST_CASE][FAILED] - Test Cases/Edit Fleet Administrator Profile: Test Cases/Edit Fleet Administrator Profile FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" classname="Test Cases/Logout" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_ParkChicago/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ParkChicago/a_Logout' located by 'By.xpath: //a[count(. | //*[@href = '/logout']) = count(//*[@href = '/logout'])][count(. | //*[text() = ' Logout']) = count(//*[text() = ' Logout'])]' not found)"/>
+         <system-out><![CDATA[2017-12-22 23:00:04 - [TEST_CASE][FAILED] - Test Cases/Logout: Test Cases/Logout FAILED because (of) Unable to click on object 'Object Repository/Page_ParkChicago/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ParkChicago/a_Logout' located by 'By.xpath: //a[count(. | //*[@href = '/logout']) = count(//*[@href = '/logout'])][count(. | //*[text() = ' Logout']) = count(//*[text() = ' Logout'])]' not found)
+
+2017-12-22 23:00:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-22 23:00:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-12-22 23:00:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-22 23:00:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://d27lxz77rn1ypu.cloudfront.net/' successfully
+
+2017-12-22 23:00:11 - [MESSAGE][PASSED] - Navigate to 'https://d27lxz77rn1ypu.cloudfront.net/' successfully
+
+2017-12-22 23:00:11 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_ParkChicago/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ParkChicago/a_Logout' located by 'By.xpath: //a[count(. | //*[@href = '/logout']) = count(//*[@href = '/logout'])][count(. | //*[text() = ' Logout']) = count(//*[text() = ' Logout'])]' not found)
+
+2017-12-22 23:00:42 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_ParkChicago/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ParkChicago/a_Logout' located by 'By.xpath: //a[count(. | //*[@href = '/logout']) = count(//*[@href = '/logout'])][count(. | //*[text() = ' Logout']) = count(//*[text() = ' Logout'])]' not found)
+[[ATTACHMENT|C:\\Users\\Admin\\Documents\\GitHub\\passport_test_chicago_fleet\\ChicagoFleet\\Reports\\SanityTests\\20171222_225907\\1514008842027.png]]]]></system-out>
+         <system-err><![CDATA[2017-12-22 23:00:04 - [TEST_CASE][FAILED] - Test Cases/Logout: Test Cases/Logout FAILED because (of) Unable to click on object 'Object Repository/Page_ParkChicago/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ParkChicago/a_Logout' located by 'By.xpath: //a[count(. | //*[@href = '/logout']) = count(//*[@href = '/logout'])][count(. | //*[text() = ' Logout']) = count(//*[text() = ' Logout'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-22 22:59:10 - [TEST_SUITE][FAILED] - SanityTests: Test Cases/Edit Fleet Administrator Profile FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2017-12-22 22:59:10 - [TEST_SUITE][FAILED] - SanityTests: Test Cases/Edit Fleet Administrator Profile FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

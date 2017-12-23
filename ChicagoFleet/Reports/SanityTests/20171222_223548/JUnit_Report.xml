@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SanityTests" time="25" tests="1" failures="0" errors="0">
+   <testsuite name="SanityTests" tests="1" failures="0" errors="0" time="25" timestamp="2017-12-22 22:35:57" hostname="Admin - Admin-PC" id="Test Suites/SanityTests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Admin\\Documents\\GitHub\\passport_test_chicago_fleet\\ChicagoFleet\\Reports\\SanityTests\\20171222_223548"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\Documents\\GitHub\\passport_test_chicago_fleet\\ChicagoFleet\\Reports\\SanityTests\\20171222_223548\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - Admin-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.84"/>
+         <property name="hostAddress" value="192.168.1.203"/>
+         <property name="sessionId" value="6aa034ee0c1a91c5199639f6434f72c3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2017-12-22 22:35:58 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2017-12-22 22:35:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://d27lxz77rn1ypu.cloudfront.net/'
+
+2017-12-22 22:36:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://d27lxz77rn1ypu.cloudfront.net/'
+
+2017-12-22 22:36:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/a_Log In' is clicked on
+
+2017-12-22 22:36:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/a_Log In' is clicked on
+
+2017-12-22 22:36:20 - [TEST_STEP][PASSED] - setText: Text 'qabob.small+1@gmail.com' is set on object 'Object Repository/Page_ParkChicago/input_email'
+
+2017-12-22 22:36:21 - [MESSAGE][PASSED] - Text 'qabob.small+1@gmail.com' is set on object 'Object Repository/Page_ParkChicago/input_email'
+
+2017-12-22 22:36:21 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Page_ParkChicago/input_pin'
+
+2017-12-22 22:36:21 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_ParkChicago/input_pin'
+
+2017-12-22 22:36:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ParkChicago/button_Log In' is clicked on
+
+2017-12-22 22:36:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParkChicago/button_Log In' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-22 22:35:57 - [TEST_SUITE][PASSED] - SanityTests: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -18,19 +18,28 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://d27lxz77rn1ypu.cloudfront.net/')
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_ParkChicago/a_Log In'))
+WebUI.click(findTestObject('Page_ParkChicago/a_Profile (1)'))
 
-WebUI.setText(findTestObject('Page_ParkChicago/input_email'), 'qabob.small+1@gmail.com')
+WebUI.click(findTestObject('Page_ParkChicago/button_Edit (1)'))
 
-WebUI.setText(findTestObject('Page_ParkChicago/input_pin'), '1234')
+WebUI.setText(findTestObject('Page_ParkChicago/input_name (2)'), 'New Company Name')
 
-WebUI.click(findTestObject('Page_ParkChicago/button_Log In'))
+WebUI.setText(findTestObject('Page_ParkChicago/input_address'), 'Address Line 1')
 
-WebUI.setText(findTestObject('Page_ParkChicago/input_code'), '510')
+WebUI.setText(findTestObject('Page_ParkChicago/input_address2'), 'Address Line 2')
 
-WebUI.click(findTestObject('Page_ParkChicago/button_Verify'))
+WebUI.setText(findTestObject('Page_ParkChicago/input_city'), 'City')
+
+WebUI.click(findTestObject('Page_ParkChicago/i_keyboard_arrow_down'))
+
+WebUI.click(findTestObject('Page_ParkChicago/div_sc-chPdSV hznEWD'))
+
+WebUI.setText(findTestObject('Page_ParkChicago/input_zip'), '85001')
+
+WebUI.click(findTestObject('Page_ParkChicago/button_Update (1)'))
+
+WebUI.callTestCase(findTestCase('Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

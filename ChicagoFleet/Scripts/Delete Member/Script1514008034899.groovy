@@ -20,17 +20,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://d27lxz77rn1ypu.cloudfront.net/')
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_ParkChicago/a_Log In'))
+WebUI.click(findTestObject('Page_ParkChicago/button_Delete'))
 
-WebUI.setText(findTestObject('Page_ParkChicago/input_email'), 'qabob.small+1@gmail.com')
+WebUI.click(findTestObject('Page_ParkChicago/button_Delete Member'))
 
-WebUI.setText(findTestObject('Page_ParkChicago/input_pin'), '1234')
-
-WebUI.click(findTestObject('Page_ParkChicago/button_Log In'))
-
-WebUI.setText(findTestObject('Page_ParkChicago/input_code'), '510')
-
-WebUI.click(findTestObject('Page_ParkChicago/button_Verify'))
+WebUI.callTestCase(findTestCase('Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -16,4 +16,9 @@ import groovy.transform.CompileStatic
 @CompileStatic
 public class GlobalVariable {
 	 
+    /**
+     * <p></p>
+     */
+	public static Object RandNumber = (0..99999999)
+	 
 }

@@ -2,4 +2,9 @@
 <GlobalVariableEntities>
    <description></description>
    <tag></tag>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>(0..99999999)</initValue>
+      <name>RandNumber</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
