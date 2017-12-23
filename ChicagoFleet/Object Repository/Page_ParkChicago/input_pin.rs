@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_pin</name>
+   <tag></tag>
+   <elementGuidId>5c9aa6a5-b486-4a39-b342-a16d753cca1c</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-Rmtcm ddhdhz</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>pin</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;sc-kkGfuU fhROih&quot;]/div[@class=&quot;sc-iAyFgw iBymdx&quot;]/form[@class=&quot;sc-hMqMXs jAeOeq&quot;]/div[@class=&quot;sc-cSHVUG jcgDRO&quot;]/div[@class=&quot;sc-gipzik VcNno&quot;]/input[@class=&quot;sc-Rmtcm ddhdhz&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
